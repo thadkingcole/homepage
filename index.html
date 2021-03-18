@@ -22,17 +22,32 @@
     <title>Meow!</title>
   </head>
   <body>
-    <main>
-      <h1>Welcome to meow website!</h1>
-      <p>My name is Reid, and I am a cat.</p>
-      <p>
-        I live with my sister cat Penelope and the two humans that take care of
-        us.
-      </p>
-      <p>
-        I'd like to share a little bit about myself, my life, and my hopes and
-        dreams. Stick around if you'd like!
-      </p>
-    </main>
+    <header class="jumbotron">
+      <h1 class="display-4">Welcome to meow website!</h1>
+      <p class="lead">My name is Reid, and I am a cat. I live with my sister cat Penelope and the two humans that take care of us. I'd like to chare a little bit about myself, my life, and my hobbies. Check it out!</p>
+      <hr class="my-4">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Reid</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/reid.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/penelope.html">Penelope</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/hobbies.html">Hobbies</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
