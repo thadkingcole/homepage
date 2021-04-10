@@ -1,0 +1,166 @@
+/* jumbotron styles */
+.jumbotron {
+  background-color: green;
+  color: white;
+}
+
+/* navbar styles */
+.navbar {
+  background-color: sandybrown;
+}
+
+/* main content styles */
+body {
+  background-color: sandybrown;
+}
+
+/* MLB team styles */
+.red-sox {
+  background-color: #bd3039;
+  color: #192c55;
+}
+
+.giants {
+  background-color: #fd5a1e;
+  color: #000000;
+}
+
+.cubs {
+  background-color: #0e3386;
+  color: #cc3433;
+}
+
+.cardinals {
+  background-color: #c41e3a;
+  color: #22205f;
+}
+
+.tigers {
+  background-color: #182d55;
+  color: #f26722;
+}
+
+.yankees {
+  background-color: #132448;
+  color: #c4ced3;
+}
+
+.rangers {
+  background-color: #003278;
+  color: #c0111f;
+}
+
+.diamondbacks {
+  background-color: #a71930;
+  color: #e3d4ad;
+}
+
+.braves {
+  background-color: #13274f;
+  color: #ce1141;
+}
+
+.orioles {
+  background-color: #000000;
+  color: #df4601;
+}
+
+.white-sox {
+  background-color: #000000;
+  color: #c4ced4;
+}
+
+.reds {
+  background-color: #c6011f;
+  color: #000000;
+}
+
+.indians {
+  background-color: #e31937;
+  color: #1a3e5a;
+}
+
+.rockies {
+  background-color: #33006f;
+  color: #c4ced4;
+}
+
+.astros {
+  background-color: #002d62;
+  color: #eb6e1f;
+}
+
+.royals {
+  background-color: #174885;
+  color: #c0995a;
+}
+
+.angels {
+  background-color: #ba0021;
+  color: #003263;
+}
+
+.dodgers {
+  background-color: #005a9c;
+  color: #ef3e42;
+}
+
+.marlins {
+  background-color: #000000;
+  color: #ff6600;
+}
+
+.brewers {
+  background-color: #0a2351;
+  color: #b6922e;
+}
+
+.twins {
+  background-color: #002b5c;
+  color: #d31145;
+}
+
+.mets {
+  background-color: #002d72;
+  color: #ff5910;
+}
+
+.athletics {
+  background-color: #003831;
+  color: #efb21e;
+}
+
+.phillies {
+  background-color: #e81828;
+  color: #284898;
+}
+
+.pirates {
+  background-color: #000000;
+  color: #fdb827;
+}
+
+.padres {
+  background-color: #002d62;
+  color: white;
+}
+
+.mariners {
+  background-color: #0c2c56;
+  color: #c4ced4;
+}
+
+.rays {
+  background-color: #092c5c;
+  color: #8fbce6;
+}
+
+.blue-jays {
+  background-color: #134ae8;
+  color: #e8291c;
+}
+
+.nationals {
+  background-color: #ab0003;
+  color: #212759;
+}
