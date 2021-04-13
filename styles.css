@@ -30,8 +30,12 @@ https://code-boxx.com/html-css-news-ticker-horizontal-vertical/#sec-horizontal *
 
 /* INNER CONTAINER */
 @keyframes ticker {
-  0% { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(-130%, 0, 0); }
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-130%, 0, 0);
+  }
 }
 
 .ticker-move {
@@ -45,12 +49,12 @@ https://code-boxx.com/html-css-news-ticker-horizontal-vertical/#sec-horizontal *
   animation-duration: 30s;
 }
 
-.ticker-move:hover{
+.ticker-move:hover {
   animation-play-state: paused; /* Pause scroll on mouse hover */
 }
 
 /* ITEMS */
-.ticker-item{
+.ticker-item {
   display: inline-block; /* Lay items in a horizontal line */
   padding: 0 2rem;
 }

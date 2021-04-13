@@ -9,13 +9,11 @@ function main() {
       const games = data.events;
 
       games.forEach((game) => {
-        console.log(game);
         // create div to place the score
         const gameEl = document.createElement("div");
 
         // add bootstrap classes to the div
-        gameEl.className =
-          "ticker-item text-center";
+        gameEl.className = "ticker-item text-center";
 
         // get the scores
         // TODO add team logos
