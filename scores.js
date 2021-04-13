@@ -18,17 +18,19 @@ function main() {
           "ticker-item text-center";
 
         // get the scores
-        const scores = {};
+        // TODO add team logos
+        const away = {};
+        const home = {};
         game.competitions[0].competitors.forEach((team) => {
           if (team.homeAway === "away") {
-            scores.away = team.score;
+            away.score = team.score;
           } else {
-            scores.home = team.score;
+            home.score = team.score;
           }
         });
 
         // put the score in the div
-        gameEl.innerText = `${scores.away} ${game.shortName} ${scores.home}
+        gameEl.innerText = `${away.score} ${game.shortName} ${home.score}
         ${game.status.type.shortDetail}`;
 
         // add the div to the ticker element
