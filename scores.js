@@ -3,7 +3,7 @@ function main() {
   const tickerEl = document.getElementById("ticker");
 
   // get game scores from ESPN API
-  fetch("http://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard")
+  fetch("https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard")
     .then((response) => response.json())
     .then((data) => {
       const games = data.events;
